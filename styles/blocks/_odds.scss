@@ -1,0 +1,50 @@
+.odds {
+  background: #f9f9f9;
+  padding-left: 159px;
+  padding-top: 80px;
+  height: 550px;
+  margin-top: 100px;
+  &__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+  }
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 48px;
+  }
+  &__item {
+    background: #ffffff;
+    width: 353px;
+    height: 138px;
+    margin-left: 0;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    &-icon {
+      width: 48px;
+      height: 48px;
+      margin-right: 19px;
+      margin-left: 0;
+    }
+    &--desc {
+      margin: 0;
+      &-title {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 18px;
+        margin-bottom: 12px;
+      }
+      &-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+      }
+    }
+  }
+}

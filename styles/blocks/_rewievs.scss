@@ -1,0 +1,104 @@
+.rewievs {
+  background: #f9f9f9;
+  width: 1440px;
+  height: 722px;
+  margin-top: 100px;
+  padding-top: 80px;
+  padding-right: 160px;
+  padding-left: 159px;
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__title {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  &__btns {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  &__btn-prev,
+  &__btn-next {
+    width: 56px;
+    height: 56px;
+    border: 1px solid #d5d5d5;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    cursor: pointer;
+  }
+  &__btn-prev {
+    background: url(/imgs/icons/arrow-prev.svg) no-repeat center;
+  }
+  &__btn-next {
+    background: url(/imgs/icons/arrow-next.svg) no-repeat center;
+    margin-left: 16px;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+  }
+  &__slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 48px;
+    position: relative;
+    overflow: hidden;
+    &-item {
+      padding-top: 40px;
+      padding-left: 40px;
+      width: 545px;
+      height: 368px;
+      background: #ffffff;
+      margin-left: 0;
+      margin-right: 30px;
+    }
+    &-title {
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 18px;
+    }
+    &-desc {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      color: #565656;
+      margin-top: 12px;
+    }
+    &-text {
+      margin-top: 40px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+      display: block;
+    }
+    &-link {
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 16px;
+      display: block;
+      position: absolute;
+      bottom: 40px;
+      color: #098fcf;
+    }
+  }
+  &__btn {
+    width: 258px;
+    height: 46px;
+    background: #098fcf;
+    border: none;
+    margin-top: 44px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    padding-top: 14px;
+  }
+}

@@ -1,0 +1,58 @@
+.roadmap {
+  width: 1122px;
+  height: 486px;
+  margin-top: 97px;
+  &__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+  }
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__item {
+    background: #043c77;
+    width: 353px;
+    height: 394px;
+    margin-top: 48px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    color: #ffffff;
+  }
+  &__time {
+    display: flex;
+    justify-content: space-between;
+    &--left {
+      margin: 0;
+    }
+    &--right {
+      margin: 0;
+      &-arrow {
+        margin-top: 17px;
+      }
+    }
+  }
+  &__step {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 28px;
+    margin-bottom: 24px;
+    margin-top: 30px;
+    &-addition {
+      font-weight: 400;
+      font-size: 12px;
+      margin-top: 17px;
+      line-height: 18px;
+    }
+  }
+  &-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

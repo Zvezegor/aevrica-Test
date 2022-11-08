@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Montserrat";
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+@import "blocks/header";
+@import "blocks/form";
+@import "blocks/cost";
+@import "blocks/delivery";
+@import "blocks/roadmap";
+@import "blocks/odds";
+@import "blocks/certificate";
+@import "blocks/partners";
+@import "blocks/rewievs";
+@import "blocks/feedback";
+@import "blocks/footer";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
